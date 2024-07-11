@@ -25,27 +25,27 @@
                     Kaixin Chai
                   </p>
                   <p>
-                    I am an undergraduate graduate from <a href="http://en.xjtu.edu.cn/">Xi'an Jiaotong
-                      University</a>, with a keen interest in robotics. Currently, I am seeking PhD programs where I can
-                    further my research. Recently, I have been working on enabling robotic arms to perform simple tasks
-                    like object pick-and-place and drawer open-and-close in a zero-shot manner, leveraging common sense
-                    provided by foundational models.
+                    Hi, I'm Kaixin, currently looking for a PhD program. This website is a brief introduction about
+                    myself.
                   </p>
                   <p>
-                    During my undergraduate studies, I focused on fundamental mathematics, mechanical principles,
-                    computer technology, and circuit design. After graduation, I worked as a Research Assistant (RA) at
-                    <a href="http://zju-fast.com/">FASTLAB</a> and <a href="https://metaslam.github.io/">GAIRLAB</a> for
-                    a year each. I am grateful for these opportunities, which allowed me to delve into more core
-                    technologies in robotics. You can find more detailed information about my experiences in the Bio
-                    section.
+                    I graduated with a Bachelor's degree in Engineering from <a href="http://en.xjtu.edu.cn/">Xi'an
+                      Jiaotong University</a>, where I gained fundamental theoretical and engineering knowledge and
+                    conducted research on fluid machinery.
+                  </p>
+                  <p>
+                    After graduation, I worked at <a href="http://zju-fast.com/">FASTLAB</a>, focusing on classical
+                    robot planning and control research.
+                    Currently, I work at <a href="https://metaslam.github.io/">GairLab</a>, where I am dedicated to
+                    enhancing robots' ability to interact with their surrounding environment.
                   </p>
                   <p style="text-align:center">
-                    <a href="kaixinchai@outlook.com">Email</a> &nbsp;/&nbsp;
-                    <a href="data/KaixinChai-CV.pdf">CV</a> &nbsp;/&nbsp;
-                    <a href="data/KaixinChai-bio.txt">Bio</a> &nbsp;/&nbsp;
+                    <a href="data/profile/KaixinChai-CV.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="data/profile/KaixinChai-bio.txt">Bio</a> &nbsp;/&nbsp;
                     <a href="https://space.bilibili.com/336103007">Bilibili</a> &nbsp;/&nbsp;
                     <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;
-                    <a href="https://github.com/cckaixin">Github</a>
+                    <a href="https://github.com/cckaixin">Github</a> &nbsp;/&nbsp;
+                    <a href="data/profile/KaixinChai-contact.txt">Contact</a>
                   </p>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
@@ -65,7 +65,7 @@
                   <p>
                     Below are some of the projects I have been involved in, listed in chronological order.
                     Research-oriented projects are <span class="highlight">highlighted</span> with a yellow background,
-                    while engineering projects are presented with a white background and are not specially emphasized.
+                    while engineering projects are presented with a white background.
                   </p>
                 </td>
               </tr>
@@ -119,6 +119,52 @@
                 </td>
               </tr>
 
+
+              <!-- GEffect -->
+              <tr onmouseout="GEffect_stop()" onmouseover="GEffect_start()" bgcolor="#ffffd0">
+                <td style="padding:10px;width:30%;vertical-align:middle">
+                  <div class="one" style="width:220px;height:123.75px;">
+                    <div class="two" id='GEffect_image' style="width:220px;height:123.75px;">
+                      <video width=220px muted autoplay loop>
+                        <source src="data/GEffect.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='data/GEffect.jpg' width=220px>
+                  </div>
+                  <script type="text/javascript">
+                    function GEffect_start() {
+                      document.getElementById('GEffect_image').style.opacity = "1";
+                    }
+
+                    function GEffect_stop() {
+                      document.getElementById('GEffect_image').style.opacity = "0";
+                    }
+                    GEffect_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <span class="papertitle"> Ground Effect-Aware Modeling and Control for Multicopters
+                    </span>
+                  </a>
+                  <br>
+                  <a href="https://scholar.google.com/citations?user=xQujI5AAAAAJ&hl=en&oi=sra">TianKai Yang</a>,
+                  <strong>Kaixin Chai</strong>,
+                  <a href="https://scholar.google.com/citations?user=IOCO-YQAAAAJ&hl=en&oi=ao">Chao Xu</a>,
+                  <a href="http://zju-fast.com/fei-gao/">Fei Gao</a>*
+
+                  <br>
+                  <em>T-RO</em>, under review
+                  <br>
+                  <a href="data/GEffect.pdf">Paper</a>
+                  <p></p>
+                  <p>
+                    Set up a mathematical model for ground effect prediction based on flown field simulation and
+                    experiments, making the drones fly safer and more stable near the ground.
+                  </p>
+                </td>
+              </tr>
               <!-- 02 TargetFollowing -->
               <tr onmouseout="TargetFollowing_stop()" onmouseover="TargetFollowing_start()">
                 <td style="padding:10px;width:30%;vertical-align:middle">
@@ -161,186 +207,7 @@
                 </td>
               </tr>
 
-              <!-- 03 HeliumAssisted -->
-              <tr onmouseout="HeliumAssisted_stop()" onmouseover="HeliumAssisted_start()">
-                <td style="padding:10px;width:30%;vertical-align:middle">
-                  <div class="one" style="width:220px;height:123.75px;">
-                    <div class="two" id='HeliumAssisted_image' style="width:220px;height:123.75px;">
-                      <video width=220px muted autoplay loop>
-                        <source src="data/HeliumAssisted.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
-                    <img src='data/HeliumAssisted.jpg' width=220px>
-                  </div>
-                  <script type="text/javascript">
-                    function HeliumAssisted_start() {
-                      document.getElementById('HeliumAssisted_image').style.opacity = "1";
-                    }
-
-                    function HeliumAssisted_stop() {
-                      document.getElementById('HeliumAssisted_image').style.opacity = "0";
-                    }
-                    HeliumAssisted_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:middle">
-                  <a href="">
-                    <span class="papertitle"> Helium-Assisted Drone for Flight Time Enhancement
-                    </span>
-                  </a>
-                  <br>
-                  <a href="">Zhiwei Zhang</a>,
-                  <strong>Kaixin Chai</strong>,
-                  <a href="">Ze Wang</a>,
-                  <a href="http://zju-fast.com/fei-gao/">Fei Gao</a>*
-                  <br>
-                  <a href="">Vedio</a>
-                  <p></p>
-                  <p>
-                    Design a Helium-Assisted drone for floating advertisements in shopping malls. The buoyancy generated
-                    by the helium balloon offsets 95\% of the weight, extending the flight time from five minutes to one
-                    hour.
-                  </p>
-                </td>
-              </tr>
-
-              <!-- 04 egoPlanner -->
-              <tr onmouseout="egoPlanner_stop()" onmouseover="egoPlanner_start()">
-                <td style="padding:10px;width:30%;vertical-align:middle">
-                  <div class="one" style="width:220px;height:123.75px;">
-                    <div class="two" id='egoPlanner_image' style="width:220px;height:123.75px;">
-                      <video width=220px muted autoplay loop>
-                        <source src="data/egoPlanner.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
-                    <img src='data/egoPlanner.jpg' width=220px>
-                  </div>
-                  <script type="text/javascript">
-                    function egoPlanner_start() {
-                      document.getElementById('egoPlanner_image').style.opacity = "1";
-                    }
-
-                    function egoPlanner_stop() {
-                      document.getElementById('egoPlanner_image').style.opacity = "0";
-                    }
-                    egoPlanner_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:middle">
-                  <a href="">
-                    <span class="papertitle"> Motion planning for Drones to Avoid Collisions in Complex Structures
-                    </span>
-                  </a>
-                  <br>
-                  <a href="https://scholar.google.com/citations?user=9r_6am8AAAAJ&hl=en&oi=ao">Xin Zhou</a>,
-                  <strong>Kaixin Chai</strong>,
-                  <a href="https://scholar.google.com/citations?user=DdEPorEAAAAJ&hl=en&oi=ao">Qianhao Wang</a>,
-                  <a href="http://zju-fast.com/fei-gao/">Fei Gao</a>*
-                  <br>
-                  <a href="">Vedio</a>
-                  <p></p>
-                  <p>
-                    Build a drone using an onboard computer equipped with HiSilicon chips for Huawei. Deploy obstacle
-                    avoidance algorithms enabling the drone to fly safely in complex environments.
-                  </p>
-                </td>
-              </tr>
-
-              <!-- 05 HeatLoading -->
-              <tr onmouseout="HeatLoading_stop()" onmouseover="HeatLoading_start()">
-                <td style="padding:10px;width:30%;vertical-align:middle">
-                  <div class="one" style="width:220px;height:123.75px;">
-                    <div class="two" id='HeatLoading_image' style="width:220px;height:123.75px;">
-                      <video width=220px muted autoplay loop>
-                        <source src="data/HeatLoading.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
-                    <img src='data/HeatLoading.jpg' width=220px>
-                  </div>
-                  <script type="text/javascript">
-                    function HeatLoading_start() {
-                      document.getElementById('HeatLoading_image').style.opacity = "1";
-                    }
-
-                    function HeatLoading_stop() {
-                      document.getElementById('HeatLoading_image').style.opacity = "0";
-                    }
-                    HeatLoading_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:middle">
-                  <a href="">
-                    <span class="papertitle"> Design of An Energy-efficient Heat Loading System
-                    </span>
-                  </a>
-                  <br>
-                  <strong>Kaixin Chai</strong>,
-                  <a href="">Zhuo Qiu</a>,
-                  <a href="">Yanze Zhu</a>,
-                  <a href="">Hanlin Shu</a>,
-                  <a href="https://gr.xjtu.edu.cn/en/web/zfzhou">Zhifu Zhou</a>*
-                  <br>
-                  <a href="">Vedio</a>
-                  <p></p>
-                  <p>
-                    Design a new thermal simulation device to generate an even temperature field. To obtain better
-                    control strategies, we model the whole heat transfer process and utilize deep reinforcement learning
-                    technology.
-                  </p>
-                </td>
-              </tr>
-
-              <!-- 06 SurfaceDetection -->
-              <tr onmouseout="SurfaceDetection_stop()" onmouseover="SurfaceDetection_start()">
-                <td style="padding:10px;width:30%;vertical-align:middle">
-                  <div class="one" style="width:220px;height:123.75px;">
-                    <div class="two" id='SurfaceDetection_image' style="width:220px;height:123.75px;">
-                      <video width=220px muted autoplay loop>
-                        <source src="data/SurfaceDetection.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
-                    <img src='data/SurfaceDetection.jpg' width=220px>
-                  </div>
-                  <script type="text/javascript">
-                    function SurfaceDetection_start() {
-                      document.getElementById('SurfaceDetection_image').style.opacity = "1";
-                    }
-
-                    function SurfaceDetection_stop() {
-                      document.getElementById('SurfaceDetection_image').style.opacity = "0";
-                    }
-                    SurfaceDetection_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:middle">
-                  <a href="">
-                    <span class="papertitle"> Automatic detection of Surface Defects in Metal Product
-                    </span>
-                  </a>
-                  <br>
-                  <strong>Kaixin Chai</strong>,
-                  <a href="">Zhuo Qiu</a>,
-                  <a href="https://gr.xjtu.edu.cn/en/web/zhang_di/1">Di Zhang</a>*
-                  <br>
-                  <a href="">Vedio</a>
-                  <p></p>
-                  <p>
-                    We designed a system for a metal processing plant to monitor the production quality of products.
-                    With the help of industrial cameras and convolutional neural networks, we achieved a recognition
-                    recall rate of 94%.
-                  </p>
-                </td>
-              </tr>
-
-
-
-
-
-              <!-- 1 LF3PM -->
+              <!-- LF3PM -->
               <tr onmouseout="LF3PM_stop()" onmouseover="LF3PM_start()" bgcolor="#ffffd0">
                 <td style="padding:10px;width:30%;vertical-align:middle">
                   <div class="one" style="width:220px;height:123.75px;">
@@ -386,7 +253,7 @@
                   <a href="https://github.com/ZJU-FAST-Lab/LF-3PM">Code</a>
                   /
                   <a href="data/LF3PM_reviews.pdf">Reviews</a>
-                  
+
                   <p></p>
                   <p>
                     Try to improve LiDAR-based localization accuracy and stability via motion planning. We derive a new
@@ -396,49 +263,45 @@
                 </td>
               </tr>
 
-
-              <!-- 2 GEffect -->
-              <tr onmouseout="GEffect_stop()" onmouseover="GEffect_start()" bgcolor="#ffffd0">
+              <!-- 04 egoPlanner -->
+              <tr onmouseout="egoPlanner_stop()" onmouseover="egoPlanner_start()">
                 <td style="padding:10px;width:30%;vertical-align:middle">
                   <div class="one" style="width:220px;height:123.75px;">
-                    <div class="two" id='GEffect_image' style="width:220px;height:123.75px;">
+                    <div class="two" id='egoPlanner_image' style="width:220px;height:123.75px;">
                       <video width=220px muted autoplay loop>
-                        <source src="data/GEffect.mp4" type="video/mp4">
+                        <source src="data/egoPlanner.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src='data/GEffect.jpg' width=220px>
+                    <img src='data/egoPlanner.jpg' width=220px>
                   </div>
                   <script type="text/javascript">
-                    function GEffect_start() {
-                      document.getElementById('GEffect_image').style.opacity = "1";
+                    function egoPlanner_start() {
+                      document.getElementById('egoPlanner_image').style.opacity = "1";
                     }
 
-                    function GEffect_stop() {
-                      document.getElementById('GEffect_image').style.opacity = "0";
+                    function egoPlanner_stop() {
+                      document.getElementById('egoPlanner_image').style.opacity = "0";
                     }
-                    GEffect_stop()
+                    egoPlanner_stop()
                   </script>
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:middle">
                   <a href="">
-                    <span class="papertitle"> Ground Effect-Aware Modeling and Control for Multicopters
+                    <span class="papertitle"> Motion planning for Drones to Avoid Collisions in Complex Structures
                     </span>
                   </a>
                   <br>
-                  <a href="https://scholar.google.com/citations?user=xQujI5AAAAAJ&hl=en&oi=sra">TianKai Yang</a>,
+                  <a href="https://scholar.google.com/citations?user=9r_6am8AAAAJ&hl=en&oi=ao">Xin Zhou</a>,
                   <strong>Kaixin Chai</strong>,
-                  <a href="https://scholar.google.com/citations?user=IOCO-YQAAAAJ&hl=en&oi=ao">Chao Xu</a>,
+                  <a href="https://scholar.google.com/citations?user=DdEPorEAAAAJ&hl=en&oi=ao">Qianhao Wang</a>,
                   <a href="http://zju-fast.com/fei-gao/">Fei Gao</a>*
-
                   <br>
-                  <em>T-RO</em>, under review
-                  <br>
-                  <a href="data/GEffect.pdf">Paper</a>
+                  <a href="">Vedio</a>
                   <p></p>
                   <p>
-                    Set up a mathematical model for ground effect prediction based on flown field simulation and
-                    experiments, making the drones fly safer and more stable near the ground.
+                    Build a drone using an onboard computer equipped with HiSilicon chips for Huawei. Deploy obstacle
+                    avoidance algorithms enabling the drone to fly safely in complex environments.
                   </p>
                 </td>
               </tr>
@@ -496,7 +359,51 @@
                 </td>
               </tr>
 
-              <!-- 4 DeepSea -->
+              <!-- 03 HeliumAssisted -->
+              <tr onmouseout="HeliumAssisted_stop()" onmouseover="HeliumAssisted_start()">
+                <td style="padding:10px;width:30%;vertical-align:middle">
+                  <div class="one" style="width:220px;height:123.75px;">
+                    <div class="two" id='HeliumAssisted_image' style="width:220px;height:123.75px;">
+                      <video width=220px muted autoplay loop>
+                        <source src="data/HeliumAssisted.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='data/HeliumAssisted.jpg' width=220px>
+                  </div>
+                  <script type="text/javascript">
+                    function HeliumAssisted_start() {
+                      document.getElementById('HeliumAssisted_image').style.opacity = "1";
+                    }
+
+                    function HeliumAssisted_stop() {
+                      document.getElementById('HeliumAssisted_image').style.opacity = "0";
+                    }
+                    HeliumAssisted_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <span class="papertitle"> Helium-Assisted Drone for Flight Time Enhancement
+                    </span>
+                  </a>
+                  <br>
+                  <a href="">Zhiwei Zhang</a>,
+                  <strong>Kaixin Chai</strong>,
+                  <a href="">Ze Wang</a>,
+                  <a href="http://zju-fast.com/fei-gao/">Fei Gao</a>*
+                  <br>
+                  <a href="">Vedio</a>
+                  <p></p>
+                  <p>
+                    Design a Helium-Assisted drone for floating advertisements in shopping malls. The buoyancy generated
+                    by the helium balloon offsets 95\% of the weight, extending the flight time from five minutes to one
+                    hour.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- DeepSea -->
               <tr onmouseout="DeepSea_stop()" onmouseover="DeepSea_start()" bgcolor="#ffffd0">
                 <td style="padding:10px;width:30%;vertical-align:middle">
                   <div class="one" style="width:220px;height:123.75px;">
@@ -547,7 +454,53 @@
               </tr>
 
 
-              <!-- 5 Savonius -->
+              <!-- 05 HeatLoading -->
+              <tr onmouseout="HeatLoading_stop()" onmouseover="HeatLoading_start()">
+                <td style="padding:10px;width:30%;vertical-align:middle">
+                  <div class="one" style="width:220px;height:123.75px;">
+                    <div class="two" id='HeatLoading_image' style="width:220px;height:123.75px;">
+                      <video width=220px muted autoplay loop>
+                        <source src="data/HeatLoading.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='data/HeatLoading.jpg' width=220px>
+                  </div>
+                  <script type="text/javascript">
+                    function HeatLoading_start() {
+                      document.getElementById('HeatLoading_image').style.opacity = "1";
+                    }
+
+                    function HeatLoading_stop() {
+                      document.getElementById('HeatLoading_image').style.opacity = "0";
+                    }
+                    HeatLoading_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <span class="papertitle"> Design of An Energy-efficient Heat Loading System
+                    </span>
+                  </a>
+                  <br>
+                  <strong>Kaixin Chai</strong>,
+                  <a href="">Zhuo Qiu</a>,
+                  <a href="">Yanze Zhu</a>,
+                  <a href="">Hanlin Shu</a>,
+                  <a href="https://gr.xjtu.edu.cn/en/web/zfzhou">Zhifu Zhou</a>*
+                  <br>
+                  <a href="">Vedio</a>
+                  <p></p>
+                  <p>
+                    Design a new thermal simulation device to generate an even temperature field. To obtain better
+                    control strategies, we model the whole heat transfer process and utilize deep reinforcement learning
+                    technology.
+                  </p>
+                </td>
+              </tr>
+
+
+              <!-- Savonius -->
               <tr onmouseout="Savonius_stop()" onmouseover="Savonius_start()" bgcolor="#ffffd0">
                 <td style="padding:10px;width:30%;vertical-align:middle">
                   <div class="one" style="width:220px;height:123.75px;">
@@ -594,6 +547,53 @@
                   </p>
                 </td>
               </tr>
+
+
+              <!-- 06 SurfaceDetection -->
+              <tr onmouseout="SurfaceDetection_stop()" onmouseover="SurfaceDetection_start()">
+                <td style="padding:10px;width:30%;vertical-align:middle">
+                  <div class="one" style="width:220px;height:123.75px;">
+                    <div class="two" id='SurfaceDetection_image' style="width:220px;height:123.75px;">
+                      <video width=220px muted autoplay loop>
+                        <source src="data/SurfaceDetection.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='data/SurfaceDetection.jpg' width=220px>
+                  </div>
+                  <script type="text/javascript">
+                    function SurfaceDetection_start() {
+                      document.getElementById('SurfaceDetection_image').style.opacity = "1";
+                    }
+
+                    function SurfaceDetection_stop() {
+                      document.getElementById('SurfaceDetection_image').style.opacity = "0";
+                    }
+                    SurfaceDetection_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:middle">
+                  <a href="">
+                    <span class="papertitle"> Automatic detection of Surface Defects in Metal Product
+                    </span>
+                  </a>
+                  <br>
+                  <strong>Kaixin Chai</strong>,
+                  <a href="">Zhuo Qiu</a>,
+                  <a href="https://gr.xjtu.edu.cn/en/web/zhang_di/1">Di Zhang</a>*
+                  <br>
+                  <a href="">Vedio</a>
+                  <p></p>
+                  <p>
+                    We designed a system for a metal processing plant to monitor the production quality of products.
+                    With the help of industrial cameras and convolutional neural networks, we achieved a recognition
+                    recall rate of 94%.
+                  </p>
+                </td>
+              </tr>
+
+
+
             </tbody>
           </table>
           <!-- Thanks -->
