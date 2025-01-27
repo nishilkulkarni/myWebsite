@@ -84,9 +84,9 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <h2>Project</h2>
+                  <h2>Projects</h2>
                   <p>
-                    Below are some of the projects I have been involved in, listed in chronological order.
+                    Below are some of the projects I have been involved in.
                     Research-oriented projects are <span class="highlight"> highlighted</span> with a yellow background,
                     while engineering projects are presented with a white background.
                   </p>
@@ -98,19 +98,19 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-              <!-- multi_slam -->
-              <tr onmouseout="multi_slam_stop()" onmouseover="multi_slam_start()">
+              <!-- vison_transformer -->
+              <tr >
                 <td style="padding:10px;width:30%;vertical-align:middle">
                   <div class="one" style="width:220px;height:123.75px;">
                     <div class="two" id='multi_slam_image' style="width:220px;height:123.75px;">
-                      <video width=220px muted autoplay loop>
-                        <source src="data/multi_slam.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
+                      <!-- <video width=220px muted autoplay loop> -->
+                        <!-- <source src="data/multi_slam.mp4" type="video/mp4"> -->
+                        <!-- Your browser does not support the video tag. -->
+                      <!-- </video> -->
                     </div>
-                    <img src='data/multi_slam.png' width=220px>
+                    <img src='data/vit.gif' width=220px>
                   </div>
-                  <script type="text/javascript">
+                  <!-- <script type="text/javascript">
                     function multi_slam_start() {
                       document.getElementById('multi_slam_image').style.opacity = "1";
                     }
@@ -119,30 +119,29 @@
                       document.getElementById('multi_slam_image').style.opacity = "0";
                     }
                     multi_slam_stop()
-                  </script>
+                  </script> -->
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:middle">
                   <a href="">
-                    <span class="papertitle">Lightweight Multi-Robot LiDAR SLAM Framework with Loop Closure
+                    <span class="papertitle"> An image is worth 16x16 words:
+                                Vision Transformers for image recognition at scale
                     </span>
                   </a>
                   <br>
-                  <strong>Kaixin Chai</strong>,
-                  <a href="">Tianyu Zhao</a>,
-                  <a href="">Anke Zhao</a>
+                  <!-- <strong>Kaixin Chai</strong>, -->
+                  <!-- <a href="">Tianyu Zhao</a>, -->
+                  <!-- <a href="">Anke Zhao</a> -->
                   <br>
-                  <a href="data/multi_slam.mp4">video</a>
+                  <!-- <a href="data/multi_slam.mp4">video</a> -->
                   <p></p>
                   <p>
-                    Consistent mapping and localization are crucial for multi-robot tasks. In this project, We developed a lightweight multi-robot
-                    localization framework, comprising: GICP module for inter-frame estimation; BTC descriptors for loop detection; GTSAM for constructing loop factor graphs.
-                    The system supports intra-loop and inter-loop closures. To address communication instability, a prior loop mechanism
-                    enables single robots to close loops with a pre-existing map. This system can efficiently run on Orin-NX using only two cores.
+                    Replicated the Vision Transformer (ViT) model using PyTorch, implementing its core components, including multi-head self-attention and positional embeddings.
+                    Exciting dive into self-attention mechanisms and how transformers are shaking up the world of computer vision, replacing traditional convolutional layers with a patch-based approach to achieve state-of-the-art performance on image classification benchmarks.
                   </p>
                 </td>
               </tr>
 
-              <!-- MobileManipulation -->
+              <!-- chestXNet -->
               <tr onmouseout="MobileManipulation_stop()" onmouseover="MobileManipulation_start()">
                 <td style="padding:10px;width:30%;vertical-align:middle">
                   <div class="one" style="width:220px;height:123.75px;">
@@ -187,7 +186,7 @@
               </tr>
 
 
-              <!-- GEffect -->
+              <!-- healthcare app -->
               <tr onmouseout="GEffect_stop()" onmouseover="GEffect_start()" bgcolor="#ffffd0">
                 <td style="padding:10px;width:30%;vertical-align:middle">
                   <div class="one" style="width:220px;height:123.75px;">
@@ -232,7 +231,7 @@
                   </p>
                 </td>
               </tr>
-              <!-- 02 TargetFollowing -->
+              <!-- connect 4 -->
               <tr onmouseout="TargetFollowing_stop()" onmouseover="TargetFollowing_start()">
                 <td style="padding:10px;width:30%;vertical-align:middle">
                   <div class="one" style="width:220px;height:123.75px;">
