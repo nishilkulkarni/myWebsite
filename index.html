@@ -211,7 +211,7 @@
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:middle">
                   <a href="">
-                    <span class="papertitle"> Active Passive Loss (APL) Framework
+                    <span class="papertitle"> Normalized Loss Functions for Deep Learning with Noisy Labels
                     </span>
                   </a>
                   <br>
@@ -225,12 +225,12 @@
                   <a href="https://drive.google.com/file/d/1W5HoU6tJi5ZueJno5tQldMDEFfM4Bevp/view?usp=sharing">Code</a>
                   <p></p>
                   <p>
-                    Implemented the Active Passive Loss (APL) framework, a novel approach to improving the robustness of deep neural networks (DNNs) 
-                    trained on datasets with noisy labels. While existing loss functions either lack robustness (e.g., Cross Entropy) or suffer from underfitting,
+                    Implemented the <a href="https://arxiv.org/abs/2006.13554">Active Passive Loss (APL)</a> framework, a novel approach to improving the robustness of deep neural networks (DNNs) 
+                    trained on datasets with noisy labels. While existing loss functions either lack robustness (e.g., Cross Entropy) or suffer from underfitting. 
+                    By applying a simple normalization, any loss function can be made robust.
                      APL systematically combines two robust loss functions that mutually enhance each other, mitigating underfitting while preserving theoretical 
-                     robustness. By applying a simple normalization, the framework ensures that any loss function can be made robust, 
-                     while empirical evaluations on benchmark datasets demonstrate that APL consistently outperforms state-of-the-art methods, 
-                     achieving superior generalization even under extreme noise rates (60-80%).
+                     robustness. Empirical evaluations on <CIFAR->CIFAR-10</CIFAR-> demonstrate that APL achieves superior generalization even under extreme noise (symmetric & asymmetric) rates (60-80%).
+                    
                   </p>
                 </td>
               </tr>
